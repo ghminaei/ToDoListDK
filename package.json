@@ -1,0 +1,20 @@
+{
+  "name": "to_do_list_dk",
+  "version": "1.0.0",
+  "description": "This is a simple to do list for Digikala front-end task.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch stylesheets/scss -o stylesheets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghminaei/ToDoListDK.git"
+  },
+  "author": "Ghazal Minaei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghminaei/ToDoListDK/issues"
+  },
+  "homepage": "https://github.com/ghminaei/ToDoListDK#readme"
+}
