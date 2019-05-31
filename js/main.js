@@ -26,4 +26,5 @@ $(document).ready(function(){
         $(this).hide(); 
         $(this).siblings("span").show().text(' - ' + $(this).val());
     });
+    
 }); 

@@ -1,0 +1,39 @@
+.topBar {
+    overflow: hidden;
+    background-color: #4682B4;
+   position: fixed;
+   top: 0;
+   padding-top: 20px;
+   width: 100%;
+   height: 60px;
+}
+
+.topBar a {
+   float: left;
+   display: block;
+   color: rgb(228, 248, 248);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.topBar i {
+   float: left;
+   display: block;
+   color: rgb(228, 248, 248);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+}
+               
+.topBar a:hover {
+   background:rgb(228, 248, 248);
+   color: #4682B4;
+}
+
+.topBar i:hover {
+   background:rgb(228, 248, 248);
+   color: #4682B4;
+}

@@ -4,8 +4,7 @@
   "description": "This is a simple to do list for Digikala front-end task.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch stylesheets/scss -o stylesheets/css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
