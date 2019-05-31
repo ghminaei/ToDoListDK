@@ -3,12 +3,66 @@
 <head>
 	<meta charset="utf-8">
 	<title>To Do List</title>
-    <link href="/stylesheets/css/style.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link href="./stylesheets/css/style.css" rel="stylesheet">
+	<link href="./s.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
+  <div>
+    <div class="topBar">
+			<div>
+					<a>John Doe</a>
+			</div>
+      <div>
+					<i class="fas fa-bell"></i>
+			</div>
+			<div>
+				<i class="fas fa-sign-out-alt"></i>
+			</div>
+      
+    </div>
+  </div>
+  <div class="main">
+    <div class="card">
+      <div class="card-header">
+          <div>
+              <h4>Daily To Do List</h4>
+          </div>
+      </div>
+      <div class="card-block">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <div class="input-group">
+                          <input id="txt_Task" type="text" class="form-control" placeholder="New Task..." />
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <div class="input-group">
+                          <button id="btn_Add" type="button" class="btn btn-primary">AddTask</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-9">
+                  <div class="form-group">
+                      <div class="input-group">
+                          <ul id="lst_ToDo"></ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
 
-    <script src="js/main.js"></script>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
